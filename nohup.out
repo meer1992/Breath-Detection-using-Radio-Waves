@@ -1,0 +1,34 @@
+mod_actors.list
+mod_actresses.list
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+17/10/25 12:38:47 INFO SparkContext: Running Spark version 2.2.0
+17/10/25 12:38:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+17/10/25 12:38:48 INFO SparkContext: Submitted application: Kevin Bacon app
+17/10/25 12:38:48 INFO SecurityManager: Changing view acls to: ec2-user
+17/10/25 12:38:48 INFO SecurityManager: Changing modify acls to: ec2-user
+17/10/25 12:38:48 INFO SecurityManager: Changing view acls groups to: 
+17/10/25 12:38:48 INFO SecurityManager: Changing modify acls groups to: 
+17/10/25 12:38:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ec2-user); groups with view permissions: Set(); users  with modify permissions: Set(ec2-user); groups with modify permissions: Set()
+17/10/25 12:38:48 INFO Utils: Successfully started service 'sparkDriver' on port 38749.
+17/10/25 12:38:48 INFO SparkEnv: Registering MapOutputTracker
+17/10/25 12:38:48 INFO SparkEnv: Registering BlockManagerMaster
+17/10/25 12:38:48 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+17/10/25 12:38:48 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+17/10/25 12:38:48 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-4c334a34-2de4-4eb1-9719-d441ddfaa6c5
+17/10/25 12:38:48 INFO MemoryStore: MemoryStore started with capacity 7.3 GB
+17/10/25 12:38:48 INFO SparkEnv: Registering OutputCommitCoordinator
+17/10/25 12:38:48 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+17/10/25 12:38:48 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://172.31.16.233:4040
+17/10/25 12:38:48 INFO SparkContext: Added JAR file:/home/ec2-user/Supercomputing-for-BigData-2016-TU-Delft/Lab2/sbd_lab2_solution/./target/scala-2.11/bacon_2.11-1.0.jar at spark://172.31.16.233:38749/jars/bacon_2.11-1.0.jar with timestamp 1508935128703
+17/10/25 12:38:48 INFO Executor: Starting executor ID driver on host localhost
+17/10/25 12:38:48 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35085.
+17/10/25 12:38:48 INFO NettyBlockTransferService: Server created on 172.31.16.233:35085
+17/10/25 12:38:48 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+17/10/25 12:38:48 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 172.31.16.233, 35085, None)
+17/10/25 12:38:48 INFO BlockManagerMasterEndpoint: Registering block manager 172.31.16.233:35085 with 7.3 GB RAM, BlockManagerId(driver, 172.31.16.233, 35085, None)
+17/10/25 12:38:48 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 172.31.16.233, 35085, None)
+17/10/25 12:38:48 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 172.31.16.233, 35085, None)
+Number of cores: 8
+Input files: mod_actors.list and mod_actresses.list
+Writing results to actors.txt
+{Time taken = 3 mins 10 secs}
