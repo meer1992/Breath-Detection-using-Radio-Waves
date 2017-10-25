@@ -2,14 +2,14 @@ Total number of actors = 1538035, out of which 1008979 (65%) are males while 529
 Total number of movies = 380159
 
 There are 1654 (0.2%) actors and 762 (0.1%) actresses at distance 1
-There are 136235 (13.5%) actors and 76656 (14.5%) actresses at distance 2
+There are 136236 (13.5%) actors and 76656 (14.5%) actresses at distance 2
 There are 527387 (52.3%) actors and 300062 (56.7%) actresses at distance 3
 There are 187812 (18.6%) actors and 92741 (17.5%) actresses at distance 4
 There are 24517 (2.4%) actors and 11448 (2.2%) actresses at distance 5
 There are 3126 (0.3%) actors and 1464 (0.3%) actresses at distance 6
 
-Total number of actors from distance 1 to 6 = 1363864, ratio = 0.88675743
-Total number of male actors from distance 1 to 6 = 880731, ratio = 0.8728933
+Total number of actors from distance 1 to 6 = 1363865, ratio = 0.8867581
+Total number of male actors from distance 1 to 6 = 880732, ratio = 0.8728943
 Total number of female actors (actresses) from distance 1 to 6 = 483133, ratio = 0.91319823
 
 List of male actors at distance 6:
